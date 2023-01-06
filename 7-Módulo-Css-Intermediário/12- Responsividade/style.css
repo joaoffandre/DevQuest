@@ -1,0 +1,40 @@
+body{
+    background-color: #efefef;
+}
+
+.cabeçalho{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.cabeçalho .logo{
+    display: inline-block;
+}
+
+.cabeçalho nav{
+    float:right;
+}
+.cabeçalho nav li{
+    display:inline-block;
+    padding:20px;
+}
+
+main{
+    background-color: white;
+    padding:30px;
+    min-width: 320px;
+    max-width: 900px;
+    margin:0px auto;
+}
+
+.info{
+    font-size:18px;
+}
+
+.info p{
+    font-size:16px;
+}
+
+.image img{
+    width:100%;
+}

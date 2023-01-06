@@ -1,0 +1,21 @@
+html {
+    font-size:16px;
+}
+
+body {
+	font-size:80%;
+    
+}
+
+h1 {
+	font-size:200%;
+}
+	
+
+.pai {
+	font-size: 100%;
+}
+
+.filha {
+	font-size:50%;
+}

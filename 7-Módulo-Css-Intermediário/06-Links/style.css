@@ -1,0 +1,22 @@
+a{
+    text-decoration:none;
+    cursor:grabbing;
+    display:block;
+    margin: 5px 0px;
+    padding:10px 5px;
+    border: 2px solid aquamarine
+}
+
+a:visited{
+    color:forestgreen;
+}
+
+a:hover{
+    color:white;
+    background-color: aquamarine;
+}
+
+a:active{
+    color:rgb(255,200,10);
+    background-color: black;
+}

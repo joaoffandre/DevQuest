@@ -1,0 +1,18 @@
+span {
+
+    display: block;
+    width: 1000px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+h1 {
+	width:100px;
+	height:100px;
+	background-color: aquamarine
+}
+
+p {
+
+    display: inline;
+}

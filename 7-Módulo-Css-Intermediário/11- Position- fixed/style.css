@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height:1500px;
+    padding-top:87px;
+}
+
+header{
+    position:fixed;
+    font-size:24px;
+    top:0px;
+    background-color: aquamarine;
+    width:100%;
+    padding:30px;
+}

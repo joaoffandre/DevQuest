@@ -1,0 +1,31 @@
+html {
+    background-color: coral;
+    width: 50%;
+}
+
+body {
+    background-color: blueviolet;
+    width:50%;
+    font-size:2em;
+    
+}
+
+h1 {
+    font-size: 1em;
+}
+
+
+.pai {
+    background-color: #e609b4;
+    width:50%;
+    font-size:1em;
+}
+
+.filha {
+    background-color: #11e0b5;
+    width:50%;
+    font-size:0.5em;
+}
+
+
+

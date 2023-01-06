@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <h1>Picture</h1>
+
+    <div>
+        <picture>
+            <source media="(max-width:425px)" srcset="./images/celular.jpg">
+            <source srcset="./images/tablet.jpg" media="(max-width:768px)">
+
+            <img src="./images/desktop.jpg" alt="Imagem grande">
+        </picture>
+    </div>
+</body>
+</html>

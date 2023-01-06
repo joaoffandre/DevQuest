@@ -1,0 +1,42 @@
+p{
+    font-size:24px;
+    font-weight:bold;
+    color:coral;
+}
+
+.bg{
+    background-color: #ccff;
+    background-image: url("./image/HD-wallpaper-tales-of-vesperia-rpg-adventure-cute-skies-nice-cool-wolf-tales-series-blue.jpg")
+}
+
+.dimensoes{
+    width:800px;
+    height: 590px;
+}
+
+.bg-repeat{
+    background-repeat:no-repeat;
+    height:800px;
+}
+
+.bg-position{
+    background-position: right bottom;
+    background-repeat:no-repeat;
+    height:800px;
+}
+
+.bg-size-cover{
+    background-size:cover;
+    height:800px;
+}
+
+.bg-attachment-fixed{
+    background-attachment: fixed;
+    height:800px;
+    background-repeat:no-repeat;
+}
+
+.background{
+    background: #facfaf url("./image/HD-wallpaper-tales-of-vesperia-rpg-adventure-cute-skies-nice-cool-wolf-tales-series-blue.jpg") no-repeat center right/cover fixed;
+    height:800px;
+}

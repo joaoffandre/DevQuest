@@ -1,0 +1,27 @@
+.float div{
+    width:100px;
+    height:100px;
+}
+
+.float .left{
+    background-color: blueviolet;
+    float:left;
+}
+
+.float .right{
+    background-color: aqua;
+    float:right;
+}
+
+.float:after{
+    content:'';
+    display:block;
+    clear: both;
+}
+
+img{
+    float:left;
+    margin-right:10px;
+    width:100px;
+    height:100px;
+}

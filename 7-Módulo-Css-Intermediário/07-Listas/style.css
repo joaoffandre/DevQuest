@@ -1,0 +1,23 @@
+ul {
+    list-style: square inside url("./Images/icone\ \(1\).png");
+    padding:0px;
+}
+
+ul li {
+    border: 2px solid #ffaaaa;
+    padding:20px;
+    background-color: #ffddff;
+}
+
+ol {
+    list-style-type: lower-greek;
+    list-style-position:outside;
+    list-style-image:url("./Images/icone\ \(1\).png");
+    padding:20px;
+}
+
+ol li{
+    border:2px solid lightskyblue;
+    padding:20px 10px;
+    background-color: #a5ffcf;
+}

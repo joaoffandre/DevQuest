@@ -1,0 +1,22 @@
+#nome-videogame, #sistema-operacional {
+
+    padding:10px;
+    background-color: #78dd88;
+}
+
+#nome-videogame {
+    
+    color:blueviolet;
+}
+
+.videogames-geral {
+
+    color:aliceblue;
+    background-color:cadetblue;
+    padding:15px;
+}
+
+.Nintendo {
+    border:5px solid #aa11ee
+
+}

@@ -1,0 +1,11 @@
+.fa-user{
+    color:crimson;
+}
+
+.fa-user:hover{
+    color:lightseagreen;
+}
+
+.fa-user:active{
+    color:blue;
+}

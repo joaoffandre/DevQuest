@@ -1,0 +1,18 @@
+.produto {
+    background-color:aquamarine;
+}
+
+.produto span {
+
+    color:fuchsia;
+}
+
+
+.produto .promocao {
+
+    font-size:30px;
+}
+
+.jogo {
+    font-size:20px;
+}

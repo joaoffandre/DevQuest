@@ -1,0 +1,18 @@
+div {
+
+    padding:10px;
+    border:10px solid coral;
+    width:100px;
+    height:100px;
+}
+
+.com-border-box {
+
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.sem-border-box {
+    background-color: goldenrod;
+
+}

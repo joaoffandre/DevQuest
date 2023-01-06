@@ -1,0 +1,8 @@
+.fa-playstation{
+    font-size:3em;
+    color:aquamarine;
+}
+
+.fa-playstation:hover{
+    color:crimson;
+}

@@ -1,0 +1,11 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+p {
+    margin:20px;
+    padding: 15px;
+    border: 5px solid forestgreen;
+    background-color: rgb(20,240,200);
+}

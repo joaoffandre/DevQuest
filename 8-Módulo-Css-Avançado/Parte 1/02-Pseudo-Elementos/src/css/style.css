@@ -1,0 +1,24 @@
+.primeira-letra::first-letter{
+    color:crimson;
+}
+
+#primeira-linha::first-line{
+    color:fuchsia;
+}
+
+.marcador li::marker{
+    font-size:2em;
+    color:crimson;
+}
+
+.antes h3::before{
+    content:url(../images/48x48.ico);
+}
+
+.depois h3::after{
+    content:"";
+    display:inline-block;
+    background:url(../images/48x48.ico) center center no-repeat crimson; 
+    width:48px;
+    height:48px;
+}

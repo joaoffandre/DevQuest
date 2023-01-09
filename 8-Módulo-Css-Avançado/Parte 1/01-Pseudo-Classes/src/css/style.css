@@ -1,0 +1,48 @@
+h2{
+    margin-top:50px;
+}
+
+h3{
+    margin-top:30px;
+}
+
+.primeiro p:first-child{
+    color:aquamarine
+}
+
+.ultimo li:last-child{
+    color:crimson;
+}
+
+.fundo-azul p:not(.padrao){
+    background-color: blue;
+}
+
+.impares p:nth-child(odd){
+    color:lightseagreen;
+}
+
+.posicao li:nth-child(4){
+    background-color: crimson;
+}
+
+.multiplos li:nth-child(3n){
+    font-weight:bold;
+    font-size:2em;
+}
+
+.intervalo p:nth-child(n+3):nth-child(-n+6){
+    color:fuchsia;
+}
+
+.posicoes-reverso li:nth-last-child(3n){
+    color:crimson;
+}
+
+p:only-child{
+    color:darkgoldenrod;
+}
+
+.primeiro-paragrafo p:first-of-type{
+    color:fuchsia;
+}

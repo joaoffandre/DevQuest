@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <h1>Seletores</h1>
+
+    <h2>Estilização com id</h2>
+
+    <nav id="menu">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </nav>
+
+    <h2>Estilização com duas classes</h2>
+
+    <h3 class="titulo vermelho">Título 1 com duas classes</h3>
+    <h3 class="titulo laranja">Título 2 com duas classes</h3>
+
+    <p class="laranja">Um texto qualquer</p>
+
+    <h2>Estilização com Vírgula</h2>
+
+    <p class="texto-fuchsia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est amet in dolorem facere accusantium unde? Porro expedita praesentium quam quia iure error ab sequi facere quod sit. Quidem, impedit ea?</p>
+
+    <span class="span-fuchsia">Um span qualquer</span>
+
+    <h2>Estilização de Elementos Filhos</h2>
+
+    <section class="estiliza-filhos">
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit impedit veritatis delectus consequatur animi maxime porro tempore laborum aliquid nostrum. Distinctio vero earum, dicta debitis non consequatur natus ducimus ipsam.</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae tempore placeat impedit rerum pariatur totam obcaecati earum beatae, repudiandae blanditiis quas tempora voluptatum eius accusamus, qui eum voluptate officia?</p>
+    </section>
+
+    <h2>Estilização de Elemento Filhos Diretos (>)</h2>
+
+    <section class="estiliza-filhos-diretos">
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis a quidem aliquam atque eum sit eligendi, quo vitae aliquid, voluptas suscipit recusandae maiores. Dolore fuga non, voluptas fugiat qui laudantium!</p>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid magni nam quo neque est cupiditate aspernatur nihil, laboriosam, dolores consequuntur sapiente inventore amet blanditiis repellendus pariatur exercitationem maiores. Sed.</p>
+    </section>
+
+    <h2>Estilização de Elementos Irmãos (~)</h2>
+
+    <div>
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <a href="./index.html" target="_blank" class="estiliza-irmaos">Link Irmão</a>
+        <p>Texto 3</p>
+        <p>Texto 4</p>
+    </div>
+
+    <h2>Estilização de Elemento Irmão Adjacente (+)</h2>
+
+    <ul>
+        <li>Item 1</li>
+        <li id="estiliza-adjacente">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <h2>Estilização de Elemento por Atributo</h2>
+
+    <label for="numero">Escolha um numero</label>
+    <select name="numero" id="numero">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <label for="letra">Escolha uma letra</label>
+    <select name="letra" id="letra">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+    </select>
+
+</body>
+</html>

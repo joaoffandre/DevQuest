@@ -1,0 +1,48 @@
+*{
+    margin-bottom:50px;
+}
+
+h2{
+    font-size:2.2em;
+}
+
+.titulo{
+    border:crimson 4px solid;
+    width:15%;
+}
+
+#menu{
+    text-transform:uppercase;
+}
+
+.titulo.laranja{
+    color:orange;
+}
+
+.texto-fuchsia, .span-fuchsia{
+    color:fuchsia;
+}
+
+.estiliza-filhos p{
+    background-color: lightsteelblue;
+}
+
+.estiliza-filhos-diretos>p{
+    background-color: lightsalmon;
+}
+
+.estiliza-irmaos~p{
+    color:lightcoral;
+}
+
+#estiliza-adjacente + li{
+    background-color: royalblue;
+}
+
+select{
+    display:block;
+}
+
+label[for="letra"]{
+    color:fuchsia;
+}   

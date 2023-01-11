@@ -1,0 +1,25 @@
+.container{
+    background-color: crimson;
+    display:flex;
+}
+
+.container.direction{
+    flex-direction:column-reverse;
+}
+
+.container div.item{
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    margin:20px;
+    padding:5px;
+}
+
+div.container.wrap{
+    flex-wrap:wrap;
+}
+
+div.container.flow{
+    flex-flow:row-reverse nowrap;
+}

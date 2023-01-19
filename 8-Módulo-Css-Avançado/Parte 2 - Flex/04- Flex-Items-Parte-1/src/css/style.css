@@ -1,0 +1,53 @@
+.item.grow-1{
+    flex-grow:1;
+}
+
+.item.grow-2{
+    flex-grow:2;
+}
+
+.item.grow-3{
+    flex-grow:3;
+}
+
+
+
+.item.basis-auto{
+    flex-basis:auto;
+}
+
+
+.item.basis-100px{
+    flex-basis:100px;
+}
+
+
+.item.basis-20pct{
+    flex-basis:20%;
+}
+
+
+
+.container.shrink .item{
+    flex-basis:60%;
+}
+
+.item.shrink-0{
+    flex-shrink:0;
+}
+
+.item.shrink-1{
+    flex-shrink:1;
+}
+
+.item.shrink-2{
+    flex-shrink:2;
+}
+
+.item.shrink-3{
+    flex-shrink:3;
+}
+
+.container.shrink.wrap{
+    flex-wrap:wrap;
+}

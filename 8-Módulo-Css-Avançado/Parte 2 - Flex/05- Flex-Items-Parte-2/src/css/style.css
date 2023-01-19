@@ -1,0 +1,24 @@
+.flex-0{
+    flex:0;
+}
+
+.flex-1{
+    flex:1;
+}
+
+.flex-1-1-20pct{
+    flex:1 1 20%;
+}
+
+.flex-0-0-40pct{
+    flex:0 0 40%;
+}
+
+.container.flex.wrap{
+    flex-wrap:wrap
+}
+
+.item.flex-0-1-300px-wrap{
+    flex: 0 1 300px;
+}
+

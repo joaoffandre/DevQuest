@@ -22,3 +22,14 @@
     flex: 0 1 300px;
 }
 
+.order .item.item3{
+    order:2;
+}
+
+.order .item.item4{
+    order:1;
+}
+
+.order .item.item2{
+    order:-1;
+}

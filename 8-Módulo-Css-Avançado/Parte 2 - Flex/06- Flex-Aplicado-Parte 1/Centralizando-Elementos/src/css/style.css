@@ -1,0 +1,12 @@
+.flex.painel{
+    display:flex;
+    background-color: fuchsia;
+    max-width: 100%;
+    height:300px;
+    justify-content: center;
+    align-items:center;
+}
+
+.flex h2{
+    font-size:3em;
+}

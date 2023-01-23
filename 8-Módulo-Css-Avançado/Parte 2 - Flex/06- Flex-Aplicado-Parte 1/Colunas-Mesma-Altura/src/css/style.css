@@ -1,0 +1,23 @@
+.painel{
+    display:flex;
+    flex-wrap:wrap;
+    width:1200px;
+    max-width:100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    margin:1em;
+    flex:0 1 300px;
+    background-color: crimson;
+}
+
+.botao{
+    align-self:flex-start;
+    margin-top:auto;
+}

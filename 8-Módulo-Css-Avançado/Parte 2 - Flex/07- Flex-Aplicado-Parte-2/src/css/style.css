@@ -1,0 +1,33 @@
+.cabeçalho{
+    display:flex;
+    max-width:100%;
+    padding:30px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.menu{
+    display:flex;
+}
+
+li{
+    margin-left:20px;
+}
+
+@media(max-width:460px){
+    .cabeçalho{
+        flex-direction:column;
+        align-items: center;
+    }
+    
+
+    li{
+        margin-top:20px;
+        margin-left:0;
+    }
+    .menu{
+        flex-direction:column;
+        align-items:center;
+        margin-top:30px;
+    }
+}

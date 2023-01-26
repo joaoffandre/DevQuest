@@ -1,0 +1,54 @@
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color:hsl(185, 75%, 39%);
+    color:hsl(227, 10%, 46%);
+    font-size: 1.5em;
+}
+
+
+.cartao{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: white;
+    width:450px;
+    max-width:90%;
+    height:500px;
+    max-height:90%;
+}
+
+
+
+.perfil{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-basis:70%;
+}
+
+.dados{
+    display:flex;
+    width:100%;
+    flex-basis:30%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+    border-top:4px solid rgba(150, 150, 150, 0.3) ;
+}
+
+.seguidores,.likes,.fotos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width:250px;
+    max-width: 70%;
+}

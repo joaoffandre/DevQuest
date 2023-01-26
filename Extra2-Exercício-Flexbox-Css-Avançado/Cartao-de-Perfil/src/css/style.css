@@ -3,9 +3,10 @@ section{
     justify-content: center;
     align-items: center;
     height:100vh;
-    background-color:hsl(185, 75%, 39%);
-    color:hsl(227, 10%, 46%);
-    font-size: 1.5em;
+    background-color: var(--cor-de-fundo);
+    font-size: var(--tamanho-da-fonte);
+    font-family:var(--tipo-de-fonte);
+    font-weight: var(--peso-da-fonte);
 }
 
 
@@ -19,6 +20,7 @@ section{
     max-width:90%;
     height:500px;
     max-height:90%;
+    border-radius:2%;
 }
 
 
@@ -51,4 +53,13 @@ section{
 img{
     width:250px;
     max-width: 70%;
+    border-radius:50%;
+}
+
+.idade,.legenda,.cidade{
+    color: var(--cor-do-texto);
+}
+
+.legenda,.cidade{
+    font-weight: var(--peso-da-fonte-cidade-e-legendas);
 }

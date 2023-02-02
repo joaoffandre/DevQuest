@@ -1,0 +1,28 @@
+.container > .item{
+    border:2px crimson solid;
+    color: white;
+    background-color: darkolivegreen;
+}
+
+.container{
+    display:grid;
+}
+
+.container.template{
+    grid-template: repeat(3,minmax(100px,300px)) / repeat(2,minmax(100px,300px)) minmax(200px,500px);
+}
+
+.container.gap{
+    grid-template: repeat(2,minmax(100px,300px))/ repeat(4,minmax(100px,200px));
+    gap:10px 100px;
+}
+
+.container.column-gap{
+    grid-template: repeat(4,200px) / repeat(2,30%);
+    column-gap: 4rem ;
+}
+
+.container.row-gap{
+    grid-template: repeat(3,minmax(200px,400px)) / repeat(3,minmax(100px,300px));
+    row-gap:50px;
+}

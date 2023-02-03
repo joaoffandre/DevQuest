@@ -1,0 +1,50 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    gap:10px;
+    grid-template: 200px 600px 200px / 20% auto 20%;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "menu secao-principal aside"
+    "rodape rodape .";
+}
+
+/* Forma com Grid: */
+/* .container{
+    display:grid;
+    gap:10px;
+    grid:
+    "cabecalho cabecalho cabecalho" 20vh
+    "menu secao-principal aside" 60vh
+    "rodape rodape rodape" 20vh /
+    20% auto 20%;
+} */
+
+.cabecalho{
+    grid-area: cabecalho;
+    background-color: crimson;
+}
+
+.menu{
+    grid-area: menu;
+    background-color: fuchsia;
+}
+
+.secao-principal{
+    grid-area:secao-principal;
+    background-color: aquamarine;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: hotpink;
+}
+
+.rodape{
+    grid-area:rodape;
+    background-color: lightskyblue;
+}

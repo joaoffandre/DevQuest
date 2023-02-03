@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Auto-Fit*/
+.container{
+    display: grid;
+    gap: 2em;
+    padding:3em;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr))
+}
+
+/*Auto-Fill */
+/* .container{
+    display: grid;
+    gap:2em;
+    padding:3em;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr))
+} */
+
+
+.item{
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    border-radius: .3em;
+    padding: 2em;
+}

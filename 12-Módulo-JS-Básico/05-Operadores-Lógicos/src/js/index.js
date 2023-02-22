@@ -38,42 +38,69 @@ console.log(a!=c)
 
 console.log("!== (não idêntico a)")
 
-//Retorna "true"
+//Retornam "true"
 
-//Retornam "false"
+console.log(a!==c)
+console.log(a!==d)
 
+//Retorna "false"
+
+console.log(a!==b)
 //
 
 console.log("< (menor que)")
 
-//Retorna "true"
+//Retornam "true"
+
+console.log(d<a)
+console.log(d<c)
 
 //Retornam "false"
 
+console.log(a<b)
+console.log(a<c)
+console.log(a<d)
 //
 
 console.log("<= (menor ou igual a)")
 
-//Retorna "true"
+//Retornam "true"
+
+console.log(a<=b)
+console.log(a<=c)
+console.log(d<=a)
 
 //Retornam "false"
 
+console.log(a<=d)
+console.log(c<=d)
 //
 
-console.log("> (maior que")
+console.log("> (maior que)")
 
 //Retorna "true"
 
+console.log(a>d)
+
 //Retornam "false"
 
+console.log(a>b)
+console.log(a>c)
+console.log(d>c)
 //
 
-console.log(">= (maior ou igual a")
+console.log(">= (maior ou igual a)")
 
-//Retorna "true"
+//Retornam "true"
+
+console.log(a>=b)
+console.log(a>=c)
+console.log(a>=d)
 
 //Retornam "false"
 
+console.log(d>=a)
+console.log(d>=c)
 //
 
 

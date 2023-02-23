@@ -32,7 +32,7 @@ console.log("Resto da Divisão")
 console.log(a%b)
 //Retorna 1
 
-console.log("Sucessor")
+console.log("Incremento")
 
 console.log(a++)
 //Retorna o valor da variável a, depois soma 1 a ela.
@@ -40,7 +40,7 @@ console.log(a++)
 console.log(++a)
 //Soma 1 à variável a, e retorna seu novo valor.
 
-console.log("Antecessor")
+console.log("Decremento")
 
 console.log(a--)
 //Retorna o valor da variável a, depois subtrai 1 dela.

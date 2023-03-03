@@ -25,3 +25,9 @@ console.log(jogos)
 
 console.log(jogos.splice(1,2,"Mario Maker 2","Super Smash Bros","Mario Kart 8"))
 console.log(jogos)
+
+//Retirando todos os elementos da lista a partir de um index
+
+console.log(jogos.splice(1)) //Retorna todos os elementos (que foram retirados) a partir do index 1
+
+console.log(jogos) //Retorna todos os elementos com index < 1 (não foram retirados)

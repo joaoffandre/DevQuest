@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando HTML</title>
+</head>
+
+<body>
+    <h1>Posts Twitter</h1>
+    <article>
+        <p> <strong>João Francisco</strong> <span>@joaoffandre - 10 min</span></p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe maiores, tempora corporis at blanditiis voluptates molestias temporibus repellendus maxime ipsum rem neque magni molestiae tenetur oditlabore dolores corrupti!</p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>Comentários</h3>
+            <input type="text" name="novo-comentario" placeholder="Digite o seu comentário">
+            <button onclick="adicionarComentario()">Adicionar Comentário</button>
+            <br>
+            <div id="novos-comentarios"></div>
+        </div>
+    </article>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

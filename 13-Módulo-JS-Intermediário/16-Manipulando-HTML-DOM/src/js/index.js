@@ -1,7 +1,7 @@
-//Ao Digitar um comentário e clicar no "button", a função adicionarComentario() é chamada
+//Ao clicar no "button", a função adicionarComentario() é chamada
 
 function adicionarComentario(){
-    //colocando o input digitado em uma variável
+    //colocando o elemento input em uma variável
     let inputComentario = document.getElementsByName("novo-comentario")
     //"pegando" o valor digitado no input através da propriedade "value"
     let comentario = inputComentario[0].value

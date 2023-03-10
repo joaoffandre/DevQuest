@@ -10,6 +10,8 @@
 <body>
     <h1>Manipulando Atributos e Estilos do DOM</h1>
 
+    <h2>Manipulando Estilos</h2>
+
     <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar Cor de Fundo do Primeiro Post</button>
 
     <article class="post">
@@ -23,6 +25,17 @@
         <p><strong>João Francisco</strong> <span>@joaoffandre - 10min</span></p>
         <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut voluptatum fugit soluta necessitatibus, enim maiores architecto recusandae illo! Numquam ut eaque impedit ex saepe voluptates reprehenderit illum eligendi esse?</p>
     </article>
+
+    <h2>Manipulando Atributos</h2>
+
+    <input type="radio" name="genero" id="genero-feminino">
+    <label for="genero-feminino">Feminino</label>
+
+    <input type="radio" name="genero" id="genero-masculino">
+    <label for="genero-masculino">Masculino</label>
+
+    <button onclick="marcarRadio('feminino')">Marcar Feminino</button>
+    <button onclick="marcarRadio('masculino')">Marcar Masculino</button>
 
     <script src="./src/js/index.js"></script>
 </body>

@@ -28,3 +28,18 @@ function alterarFonteSegundoPost(){
     console.log(segundoPost.classList)
     segundoPost.classList.add("fonte-grande")
 }
+
+function marcarRadio(genero){
+    //selecionando o input radio que queremos marcar
+
+    let radioFeminino = document.getElementById("genero-feminino")
+    let radioMasculino = document.getElementById("genero-masculino")
+
+    //Marcando checked no input de acordo com o botão clicado (valor do parâmetro)
+
+    if (genero === "feminino"){
+        radioFeminino.checked= true
+    } else if (genero === "masculino"){
+        radioMasculino.checked= true
+    }
+}

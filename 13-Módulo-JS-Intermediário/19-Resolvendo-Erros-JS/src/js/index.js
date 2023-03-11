@@ -5,8 +5,8 @@
 
 let inputTelefone = document.getElementById("telefone")
 
-inputTelefone.disabled = true
+inputTelefone.disabled = true  // "Desativa" o input
 
 function habilitarTelefone(){
-    inputTelefone.disabled = false;
+    inputTelefone.disabled = false;  // "Ativa" o input
 }

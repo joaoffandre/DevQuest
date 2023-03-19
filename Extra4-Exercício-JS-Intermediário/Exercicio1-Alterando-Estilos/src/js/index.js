@@ -1,5 +1,5 @@
-let caixa1 = document.getElementsByClassName("caixa")[0]
-let botao = document.getElementById("botao")
+const caixa1 = document.getElementsByClassName("caixa")[0]
+const botao = document.getElementById("botao")
 
 function trocarCor(){
     caixa1.style.backgroundColor="yellow"

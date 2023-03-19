@@ -1,0 +1,12 @@
+.caixa{
+    width: 200px;
+    height: 200px;
+}
+
+.caixa:first-of-type{
+    background-color: blue;
+}
+
+.caixa:last-of-type{
+    background-color: red;
+}
